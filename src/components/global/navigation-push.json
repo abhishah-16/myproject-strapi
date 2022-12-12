@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_global_navigation_pushes",
+  "info": {
+    "displayName": "navigationPush",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}

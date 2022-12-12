@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "square"
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "purple",
+        "yellow"
+      ],
+      "default": "purple"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}

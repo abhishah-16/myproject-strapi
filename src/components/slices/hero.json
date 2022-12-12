@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_slices_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.edito"
+    }
+  }
+}

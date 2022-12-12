@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_global_navigation_sections",
+  "info": {
+    "displayName": "navigationSection",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}
